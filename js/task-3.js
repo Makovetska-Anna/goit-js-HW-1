@@ -1,18 +1,18 @@
-//const AdminPassword = `jqueryismyjam`;
-//let message;
+const AdminPassword = `jqueryismyjam`;
+let message;
 
-//message = prompt (`Введите пароль!`);
+message = prompt (`Введите пароль!`);
 
-//if ( message === null ){
-//	message= `отменено пользователем!`;
-//}
+if ( message === null ){
+	message= `отменено пользователем!`;
+}
 
-//else if ( message  === `jqueryismyjam`){
-//	message= `Добро пожаловать!`;
-//}
-//else {
-//	message = `Доступ запрещен, неверный пароль!`;
-//}
+else if ( message  === `jqueryismyjam`){
+	message= `Добро пожаловать!`;
+}
+else {
+	message = `Доступ запрещен, неверный пароль!`;
+}
 
-//alert(message);
+alert(message);
 
